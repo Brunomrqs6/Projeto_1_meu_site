@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background:linear-gradient(black,#f4ee04);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container img{
+    height: 130px;
+}
+
+header a {
+    font-family: 'Audiowide', cursive;
+    font-style: italic;
+    color: yellow;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+section img {
+    width: 100%;
+    height: ;
+}
+
+section {
+    background-color: #020013;
+}
+
+section h2 {
+    color: #f4ee04;
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    padding: 16px;
+    font-size: xx-large;
+}
+
+section p {
+    color: #f4ee04;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+section iframe {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+.form h2 {
+    padding: 50px;
+}
+section form li {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+form input {
+    font-family: 'Audiowide', cursive;
+    display: block;
+    width: 320px;
+    height: 30px;
+    border-radius: 5px ;
+    border-color: yellow;
+}
+
+section form button {
+    font-family: 'Audiowide', cursive;
+    display: block;
+    margin: auto;
+    width: 220px;
+    height: 50px;
+    background-color: #020013;
+    color: #f4ee04;
+    border: none;
+}
+
+form input:focus-visible {
+    outline-width: 0;
+}
+
+section form button:hover {
+    cursor: pointer; 
+    color: red;
+}
+
+section .socials li {
+    position: relative;
+    width: 70px;
+    display: inline-block;
+    left: 565px;    
+}
+
+footer{
+    text-align: end;
+    align-items: center;
+    font-family: 'Audiowide', cursive;
+    color: #f4ee04;
+    background-color: #020013;
+    padding: 30px;
+}
